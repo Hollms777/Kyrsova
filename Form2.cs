@@ -24,7 +24,7 @@ namespace Курсова
         private async void Form2_Load(object sender, EventArgs e)
         {
             
-            string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\University\C#\Курсова\Курсова\Database.mdf;Integrated Security=True";
+            string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\University\C#\Курсова\Курсова\Kyrsova\Database.mdf;Integrated Security=True";
             
             sqlConnection = new SqlConnection(connectionString);
             

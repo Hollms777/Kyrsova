@@ -58,7 +58,7 @@ namespace Курсова
             if (label3.Visible)
                 label3.Visible = false;
 
-            sqlConnection = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\University\C#\Курсова\Курсова\Database.mdf;Integrated Security=True");
+            sqlConnection = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\University\C#\Курсова\Курсова\Kyrsova\Database.mdf;Integrated Security=True");
 
             sqlConnection.Open();
 
